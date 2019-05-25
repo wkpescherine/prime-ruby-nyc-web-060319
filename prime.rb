@@ -1,6 +1,6 @@
 # Add  code here!
 def prime?(number)
-  is_number_prime = false
+  is_number_prime = true
   
   if number <= 1
     is_number_prime = false
