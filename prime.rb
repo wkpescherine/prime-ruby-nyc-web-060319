@@ -15,7 +15,9 @@ def prime?(number)
     is_number_prime = true
   else
     all_numbers_array.each do |divide|
-    
+    if number%divide = 0
+      
+    end  
   end
   
   is_number_prime
