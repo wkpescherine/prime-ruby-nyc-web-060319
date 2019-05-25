@@ -1,5 +1,6 @@
 # Add  code here!
 def prime?(number)
+  is_number_prime
   
   if number <= 1
     is_number_prime = false
@@ -10,6 +11,6 @@ def prime?(number)
       return false if number % divisor == 0
     end 
   end
-
-  true
+  
+  is_number_prime
 end
