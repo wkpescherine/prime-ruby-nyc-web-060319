@@ -6,7 +6,7 @@ def prime?(number)
   elsif number ==2
     is_number_prime = true
   else
-    (2...num).each do |divisor|
+    (2...number).each do |divisor|
       return false if num % divisor == 0
     end 
   end
